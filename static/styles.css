@@ -4,18 +4,29 @@ body {
 
 }
 
-h1,h3{ 
+h1{ 
     margin-left: 2cm;
+}
+
+h2{
+    color: black;
+    margin-left: 2cm;
+    margin-bottom: 5em;
+    
+
 }
 
 form{
     display: inline-block;
     margin-bottom: 1em;
-    margin-left: 2cm;
+    margin-left: 1cm;
+    
 }
 label {
     display: block;
     margin-bottom: 0.5em;
+    color: black;
+
 }
 input.form-control {
     display: block;
@@ -26,7 +37,7 @@ input.form-control {
 }
 
 button.btn.btn-primary {
-    background-color: rgb(92, 82, 82);
+    background-color: rgb(146, 4, 4);
     color: white;
     padding: 0.5em 1em;
     font-size: 1em;
