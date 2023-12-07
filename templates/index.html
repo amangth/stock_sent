@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <style>
+        body {
+          background-image: url("https://theporcelainlounge.co.nz/cdn/shop/products/lladro-inspiration-spanish-bull-30895644803125.png?v=1642839710");
+          background-size: cover;
+        }
+        </style>
+
+        <h1>
+            STOCK MARKET PREDICTION WITH SENTIMENT ANALYSIS
+        </h1>
+
+        
+    <form action="predict" method="post">
+        <label for="Close_data">Close Data:</label>
+        <input type="text" name="Close_data" class="form-control" required="required">
+        <label for="Volume_data">Volume Data:</label>
+        <input type="text" name="Volume_data" class="form-control" required="required">
+        <label for="Open_data">Open Data:</label>
+        <input type="text" name="Open_data" class="form-control" required="required">
+
+        <label for="Actual_Close">Actual Close:</label>
+        <input type="text" name="Actual_Close" class="form-control" required="required">
+        <label for="polarity_data">Polarity Data (between 0.9 and -0.1):</label>
+        <input type="text" name="polarity_data" class="form-control" required="required">
+    
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </form>
+    <h3>{{ prediction_text }}</h3>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-right: auto;
+
+}
+
+h1,h3{ 
+    margin-left: 2cm;
+}
+
+form{
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-left: 2cm;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+input.form-control {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button.btn.btn-primary {
+    background-color: rgb(92, 82, 82);
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #008fb3;
+}
