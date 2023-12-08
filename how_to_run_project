@@ -4,3 +4,4 @@
 #by running---  env\Scripts\activate
 #then insatll requirements by running ---  pip install -r requirements.txt
 #then after installing the requirement run --- python app.py 
+# a url should be visible , copy and paste on browser
