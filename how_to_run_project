@@ -1,0 +1,6 @@
+#create virtual environment on terminal
+#by running ---- python -m virtualenv env
+# then activate environment
+#by running---  env\Scripts\activate
+#then insatll requirements by running ---  pip install -r requirements.txt
+#then after installing the requirement run --- python app.py 
